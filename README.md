@@ -2,8 +2,7 @@
 
 Bienvenue sur mon portfolio ! Je suis **Nicolas ROUSSET**, **Ingénieur en Gestion des Données et Suivi de la Qualité de l'Eau** chez Haut-Bugey Agglomération.
 
-Ingénieur chimiste de formation avec une appétence pour les mathématiques et les données, je me suis engagé dans une reconversion professionnelle dans le domaine de l’analyse des données.
-A Haut-Bugey Agglomération mes missions incluent l'ETL des données de différentes sources, le calcul de KPIs et la création de tableaux de bord dynamiques destinés à l'ensemble du service.
+Mes missions incluent l'ETL des données de différentes sources, le calcul de KPIs et la création de tableaux de bord dynamiques destinés à l'ensemble du service.
 Je manipule au quotidien des logiciels comme Excel, AirByte, DBT et PowerBI pour extraire, nettoyer, transformer et présenter des données issues de différentes sources (SQL Server, PostgreSQL, API pour les données externes).
 
 Ce portfolio présente mes projets réalisés dans le domaine de la gestion de l'eau potable, ainsi que mes compétences en outils et techniques d'analyse de données.
