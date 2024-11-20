@@ -21,13 +21,24 @@ Ce portfolio présente mes projets réalisés dans le domaine de la gestion de l
 
 ## 📊 **Projets**
 ### 1️⃣ **Suivi des indicateurs de qualité de l’eau**
-- 📄 [Voir le rapport PDF](Rapports/Controle_qualite_eau.pdf)
-- **Description** : Analyse des données télésurveillées pour identifier les écarts de qualité et suivre les conformités.
-- **Outils utilisés** :
-  - Extraction des données via SQL Server.
-  - Transformation avec DBT pour nettoyer et structurer les données.
-  - Création d’un tableau de bord interactif dans Power BI.
 
+- **Description** : Intégration et analyse des résultats mensuels des analyses de qualité de l'eau reçus d'un laboratoire d'analyse dans le cadre du contrôle sanitaire national.
+Chaque mois, je reçois deux fichiers :
+  - La liste des analyses : Ce fichier contient les métadonnées des analyses (dates, communes, etc.).
+  - Les résultats des analyses : Détaille les résultats pour chaque paramètre analysé, au format SISE-EAUX.
+
+- **Méthodologie** :
+  - Import et transformation des données : Les fichiers sont combinés dans Power BI en utilisant la colonne "id échantillon" comme clé de jointure.
+  - Décodage des codes SISE-EAUX : Des tables de correspondance sont utilisées pour transformer les codes SISE-EAUX en libellés compréhensibles.
+  - Création de rapports dynamiques : Je crée des tableaux de bord dans Power BI où l'utilisateur peut sélectionner les communes et les paramètres à afficher pour visualiser les résultats d'analyses de manière claire et dynamique.
+
+- **Outils utilisés** : PowerQuery + PowerBI
+
+- **Résultat** :
+Le rapport final permet aux utilisateurs d'avoir accès à l'ensemble de l'historique des analyses du contrôle sanitaire sur le périmètre de notre collectivité.
+Les utilisateurs peuvent filtrer et examiner les analyses de qualité de l'eau pour chaque commune et chaque paramètre, facilitant ainsi la prise de décision et le suivi de la conformité de l'eau potable.
+
+- 📄 [Voir le rapport PDF](Rapports/Controle_qualite_eau.pdf)
 ---
 
 ### 2️⃣ **Analyse des consommations par secteur**
