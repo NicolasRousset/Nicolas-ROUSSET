@@ -34,11 +34,18 @@ Chaque mois, je reçois deux fichiers :
 
 - **Outils utilisés** : PowerQuery + PowerBI
 
+- **Données brutes** :
+  - Liste des analyses :
+  ![Donnees_brutes](Projets/Donnees_brutes2.PNG)
+  - Résultat des analyses :
+  ![Donnees_brutes](Projets/Donnees_brutes.PNG)
+
 - **Résultat** :
 Le rapport final permet aux utilisateurs d'avoir accès à l'ensemble de l'historique des analyses du contrôle sanitaire sur le périmètre de notre collectivité.
 Les utilisateurs peuvent filtrer et examiner les analyses de qualité de l'eau pour chaque commune et chaque paramètre, facilitant ainsi la prise de décision et le suivi de la conformité de l'eau potable.
 
-- 📄 [Voir le rapport PDF](Rapports/Controle_qualite_eau.pdf)
+📄 [Voir le rapport PowerBI](Rapports/Controle_qualite_eau.pdf)
+
 ---
 
 ### 2️⃣ **Analyse des consommations par secteur**
