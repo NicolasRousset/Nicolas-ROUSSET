@@ -56,14 +56,7 @@ Les utilisateurs peuvent filtrer et examiner les analyses de qualité de l'eau p
 
 ---
 
-### 2️⃣ **Suivi des consommations par secteur**
-- 📄 [Lien vers le tableau de bord Power BI](https://votre-lien-power-bi)
-- 📷 ![Exemple de visualisation](Images/consommations-secteurs.png)
-- **Description** : Modélisation des données de consommation pour détecter les anomalies et optimiser la gestion des secteurs.
-- **Méthodologie** :
-  - Jointures SQL pour relier compteurs et débits journaliers.
-  - Calcul des entrées/sorties par secteur.
-  - Création de graphiques dynamiques pour faciliter l’analyse.
+### 2️⃣ **Suivi des consommations par secteur** : coming soon !
 
 ---
 
