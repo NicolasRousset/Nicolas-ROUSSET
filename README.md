@@ -27,6 +27,12 @@ Chaque mois, je reçois deux fichiers :
   - La liste des analyses : Ce fichier contient les métadonnées des analyses (dates, communes, etc.).
   - Les résultats des analyses : Détaille les résultats pour chaque paramètre analysé, au format SISE-EAUX.
 
+- **Données brutes** :
+  - Liste des analyses :
+  ![Donnees_brutes](Projets/Donnees_brutes2.PNG)
+  - Résultat des analyses :
+  ![Donnees_brutes](Projets/Donnees_brutes.PNG)
+
 - **Méthodologie** :
   - Import et transformation des données : Les fichiers sont combinés dans Power BI en utilisant la colonne "id échantillon" comme clé de jointure.
   - Décodage des codes SISE-EAUX : Des tables de correspondance sont utilisées pour transformer les codes SISE-EAUX en libellés compréhensibles.
@@ -34,17 +40,15 @@ Chaque mois, je reçois deux fichiers :
 
 - **Outils utilisés** : PowerQuery + PowerBI
 
-- **Données brutes** :
-  - Liste des analyses :
-  ![Donnees_brutes](Projets/Donnees_brutes2.PNG)
-  - Résultat des analyses :
-  ![Donnees_brutes](Projets/Donnees_brutes.PNG)
+![Schema_modele](Projets/Schema_modele.PNG)
+
 
 - **Résultat** :
 Le rapport final permet aux utilisateurs d'avoir accès à l'ensemble de l'historique des analyses du contrôle sanitaire sur le périmètre de notre collectivité.
 Les utilisateurs peuvent filtrer et examiner les analyses de qualité de l'eau pour chaque commune et chaque paramètre, facilitant ainsi la prise de décision et le suivi de la conformité de l'eau potable.
 
-📄 [Voir le rapport Power BI](Projets/Controle_Sanitaire.pdf)
+📄 [Voir le rapport complet Power BI](Projets/Controle_Sanitaire.pdf)
+
 
 ---
 
