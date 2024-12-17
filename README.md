@@ -48,7 +48,7 @@ Extrait données patrimoniales (PostGreSQL)
   - Les modèles sont stockées sous forme de vues dans une nouvelle base de données PostGreSQL en local
   - Connexion de **PowerBI** aux vues PostGreSQL pour créer des rapports dynamiques 
 
-<uLogigramme méthodologique :</u
+<u>Logigramme méthodologique :</u>
 ![Logigramme projet](Projets/Logigramme_projet.png)
 
 Connexion & import via Airbyte :
