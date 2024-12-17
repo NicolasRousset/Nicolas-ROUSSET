@@ -47,11 +47,11 @@ Extrait données patrimoniales (PostGreSQL)
   - Utilisation de DBT pour extraire uniquement les données utiles, les nettoyer et les transformer en modèles adaptés aux besoins métiers
   - Les modèles sont stockées sous forme de vues dans une nouvelle base de données PostGreSQL en local
   - Connexion de PowerBI aux vues PostGreSQL pour créer des rapports dynamiques 
-
+Logigramme méthodologique :
 ![Logigramme projet](Projets/Logigramme_projet.png)
-
+Connexion & import via Airbyte :
 ![AirByte connexions](Projets/AirByte_connexions.PNG)
-
+DAG des modèles sur DBT :
 ![DAG1](Projets/DAG1.PNG)
 
 - **Outils utilisés** : SSMS, pgAdmin4, Airbyte, DBT, PowerBI
