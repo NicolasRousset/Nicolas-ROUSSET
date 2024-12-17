@@ -31,7 +31,7 @@ Mise au point d'un tableau de bord à destination des agents d'exploitation terr
   - Tableau récapitulatif des variations de consommation par secteur
   - Suivi des débits journaliers par réseau de distribution (comprenant plusieurs secteurs)
 
-Nos données de débits sont issues de notre base de données d'exploitation.
+Nos données de débits sont issues de notre base de données d'exploitation.  
 Nos données patrimoniales (secteur, réseau, etc.) sont issues de notre base de données SIG.
 
 - **Données brutes** :
