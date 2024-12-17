@@ -42,11 +42,11 @@ Nos données patrimoniales (secteur, réseau, etc.) sont issues de notre base de
 ![Compteurs](Projets/Compteurs.PNG)
 
 - **Méthodologie** :
-  - Connexion aux deux sources de données exploitation (BDD en local) et patrimoniales (BDD serveur distant) avec l'outil **AirByte**.
-  - Automatisation de l'extraction journalière (uniquement nouvelles insertions + modifications) et chargement dans une base de données PostGreSQL en local
-  - Utilisation de **DBT** pour extraire uniquement les données utiles, les nettoyer et les transformer en modèles adaptés aux besoins métiers
-  - Les modèles sont stockées sous forme de vues dans une nouvelle base de données PostGreSQL en local
-  - Connexion de **PowerBI** aux vues PostGreSQL pour créer des rapports dynamiques 
+  - **Connexion** aux deux sources de données exploitation (BDD en local) et patrimoniales (BDD serveur distant) avec l'outil **AirByte**.
+  - **Automatisation de l'extraction journalière** (uniquement nouvelles insertions + modifications) et chargement dans une base de données PostGreSQL en local
+  - Utilisation de **DBT** pour extraire uniquement les données utiles, les nettoyer et les **transformer en modèles adaptés aux besoins métiers**
+  - Les modèles sont stockées sous forme de **vues** dans une nouvelle base de données PostGreSQL en local
+  - Connexion de **PowerBI** aux vues PostGreSQL pour créer des **rapports dynamiques** 
 
 *Logigramme méthodologique :*
 ![Logigramme projet](Projets/Logigramme_projet.png)
