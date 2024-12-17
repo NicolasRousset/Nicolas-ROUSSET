@@ -63,9 +63,10 @@ Nos données patrimoniales (secteur, réseau, etc.) sont issues de notre base de
 
 - **Outils utilisés** : SSMS, pgAdmin4, Airbyte, DBT, PowerBI
 
-- **Résultat** :
-Le rapport final permet aux utilisateurs d'avoir accès à l'ensemble de l'historique des débits de nuit et des débits journaliers du réseau.
-Un tableau récapitulatif des consommations avec une alerte sous forme de couleur (si conso journalière > 10% de la moyenne des 30 derniers jours).  
+- **Résultat** :  
+Le rapport final permet aux utilisateurs d'avoir accès à :  
+  - L'ensemble de l'historique des débits de nuit et des débits journaliers du réseau.  
+  - Un tableau récapitulatif des consommations avec une alerte sous forme de couleur (si conso journalière > 10% de la moyenne des 30 derniers jours).  
 
 Chaque matin chaque responsable de secteur vient visualiser ces données à la recherche de potentiels fuites sur son réseau.  
 
