@@ -35,7 +35,11 @@ Nos données de débits sont issues de notre base de données d'exploitation.
 Nos données patrimoniales (secteur, réseau, etc.) sont issues de notre base de données SIG.
 
 - **Données brutes** :
+Extrait données d'exploitation (Microsoft SQL Server)
+![DonneesExploitation](Projets/DonneesExploitation.png)
 
+Extrait données patrimoniales (PostGreSQL)
+![Compteurs](Projets/Compteurs.png)
 
 - **Méthodologie** :
   - Connexion aux deux sources de données exploitation (BDD en local) et patrimoniales (BDD serveur distant) avec l'outil AirByte.
@@ -46,13 +50,21 @@ Nos données patrimoniales (secteur, réseau, etc.) sont issues de notre base de
 
 ![Logigramme projet](Projets/Logigramme_projet.png)
 
+![AirByte connexions](Projets/AirByte connexions.png)
+
+![DAG1](Projets/DAG1.png)
+
 - **Outils utilisés** : SSMS, pgAdmin4, Airbyte, DBT, PowerBI
 
 - **Résultat** :
-Le rapport final permet aux utilisateurs d'avoir accès à l'ensemble de l'historique des débits de nuit et des débits journaliers de notre réseau.
-Un tableau récapitulatif des consommations avec une alerte sous forme de couleur (si conso journalière > 10% de la moyenne des 30 derniers jours)
+Le rapport final permet aux utilisateurs d'avoir accès à l'ensemble de l'historique des débits de nuit et des débits journaliers du réseau.
+Un tableau récapitulatif des consommations avec une alerte sous forme de couleur (si conso journalière > 10% de la moyenne des 30 derniers jours).  
 
-Chaque matin chaque responsable de secteur vient visualiser ces données à la recherche de potentiels fuites sur son réseau.
+Chaque matin chaque responsable de secteur vient visualiser ces données à la recherche de potentiels fuites sur son réseau.  
+
+![Courbe_suivi](Projets/Courbe_suivi.png)
+
+![Tableau_suivi](Projets/Tableau_suivi.png)
 
 📄 [Voir le rapport complet Power BI](Projets/Recherche_de_fuites.pdf)
 
