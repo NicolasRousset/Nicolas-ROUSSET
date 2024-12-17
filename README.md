@@ -25,11 +25,11 @@ Ce portfolio présente quelques uns de mes projets réalisés dans le domaine de
 
 - **Objectifs & Description** :
 Mise au point d'un tableau de bord à destination des agents d'exploitation terrain et du Responsable d'Exploitation comprenant :
-  - Suivi des débits de nuit par secteur
-  - Suivi des débits journaliers par secteur
-  - Suivi des rendements par secteur
-  - Tableau récapitulatif des variations de consommation par secteur
-  - Suivi des débits journaliers par réseau de distribution (comprenant plusieurs secteurs)
+  - Suivi des **débits de nuit** par secteur
+  - Suivi des **débits journaliers** par secteur
+  - Suivi des **rendements** par secteur
+  - Tableau récapitulatif des **variations de consommation** par secteur
+  - Suivi des **débits journaliers par réseau de distribution** (comprenant plusieurs secteurs)
 
 Nos données de débits sont issues de notre base de données d'exploitation.  
 Nos données patrimoniales (secteur, réseau, etc.) sont issues de notre base de données SIG.
