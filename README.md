@@ -1,6 +1,6 @@
 # Portfolio d'Analyse de Données
 
-Bienvenue sur mon portfolio ! Je suis **Nicolas ROUSSET**, **Ingénieur en Gestion des Données et Suivi de la Qualité de l'Eau** chez Haut-Bugey Agglomération.
+Bienvenue sur mon portfolio ! Je suis **Nicolas ROUSSET**, **Ingénieur en Analyse des Données et Suivi de la Qualité de l'Eau** chez Haut-Bugey Agglomération.
 
 Mes missions incluent l'**ETL des données**, le **calcul de KPIs** et la création de **tableaux de bord dynamiques** destinés à l'ensemble du service.
 Je manipule au quotidien des logiciels comme **Excel, AirByte, DBT** et **PowerBI** pour **extraire, nettoyer, transformer et présenter des données issues de différentes sources** (SQL Server, PostgreSQL, API pour les données externes).
