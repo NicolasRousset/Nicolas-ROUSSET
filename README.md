@@ -36,10 +36,10 @@ Nos données patrimoniales (secteur, réseau, etc.) sont issues de notre base de
 
 - **Données brutes** :  
 Extrait données d'exploitation (Microsoft SQL Server)
-![DonneesExploitation](Projets/DonneesExploitation.png)
+![DonneesExploitation](Projets/DonneesExploitation.PNG)
 
 Extrait données patrimoniales (PostGreSQL)  
-![Compteurs](Projets/Compteurs.png)
+![Compteurs](Projets/Compteurs.PNG)
 
 - **Méthodologie** :
   - Connexion aux deux sources de données exploitation (BDD en local) et patrimoniales (BDD serveur distant) avec l'outil AirByte.
@@ -50,7 +50,7 @@ Extrait données patrimoniales (PostGreSQL)
 
 ![Logigramme projet](Projets/Logigramme_projet.png)
 
-![AirByte connexions](Projets/AirByte connexions.PNG)
+![AirByte connexions](Projets/AirByte_connexions.PNG)
 
 ![DAG1](Projets/DAG1.PNG)
 
