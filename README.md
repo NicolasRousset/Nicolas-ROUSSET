@@ -57,6 +57,10 @@ Nos données patrimoniales (secteur, réseau, etc.) sont issues de notre base de
 *DAG des modèles sur DBT :*
 ![DAG1](Projets/DAG1.PNG)
 
+*Exemples de code SQL + Jinja dans DBT* :
+![CodeSQL1](Projets/CodeSQL1.PNG)
+![CodeSQL2](Projets/CodeSQL2.PNG)
+
 - **Outils utilisés** : SSMS, pgAdmin4, Airbyte, DBT, PowerBI
 
 - **Résultat** :
@@ -104,10 +108,12 @@ Chaque mois, je reçois deux fichiers :
 
 - **Résultat** :
 Le rapport final permet aux utilisateurs d'avoir accès à l'ensemble de l'historique des analyses du contrôle sanitaire sur le périmètre de notre collectivité.
-Les utilisateurs peuvent filtrer et examiner les analyses de qualité de l'eau pour chaque commune et chaque paramètre, facilitant ainsi la prise de décision et le suivi de la conformité de l'eau potable.
+Les utilisateurs peuvent filtrer et examiner les analyses de qualité de l'eau pour chaque commune et chaque paramètre, facilitant ainsi la prise de décision et le suivi de la conformité de l'eau potable.  
 
+*Suivi des débits journaliers par réseau de distribution (comprenant plusieurs secteurs) :*  
 ![PowerBI1.PNG](Projets/PowerBI1.PNG)
 
+*Tableau récapitulatif des variations de consommation par secteur :*  
 ![PowerBI2.PNG](Projets/PowerBI2.PNG)
 
 📄 [Voir le rapport complet Power BI](Projets/Controle_Sanitaire.pdf)
