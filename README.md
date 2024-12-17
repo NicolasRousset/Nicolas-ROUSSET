@@ -34,11 +34,11 @@ Mise au point d'un tableau de bord à destination des agents d'exploitation terr
 Nos données de débits sont issues de notre base de données d'exploitation.  
 Nos données patrimoniales (secteur, réseau, etc.) sont issues de notre base de données SIG.
 
-- **Données brutes** :
+- **Données brutes** :  
 Extrait données d'exploitation (Microsoft SQL Server)
 ![DonneesExploitation](Projets/DonneesExploitation.png)
 
-Extrait données patrimoniales (PostGreSQL)
+Extrait données patrimoniales (PostGreSQL)  
 ![Compteurs](Projets/Compteurs.png)
 
 - **Méthodologie** :
