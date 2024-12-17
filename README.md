@@ -57,7 +57,7 @@ Nos données patrimoniales (secteur, réseau, etc.) sont issues de notre base de
 *DAG des modèles sur DBT :*
 ![DAG1](Projets/DAG1.PNG)
 
-*Exemples de code SQL + Jinja dans DBT* :
+*Exemples de code SQL + Jinja dans DBT* :  
 ![CodeSQL1](Projets/CodeSQL1.PNG)
 ![CodeSQL2](Projets/CodeSQL2.PNG)
 
