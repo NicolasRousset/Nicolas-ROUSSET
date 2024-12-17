@@ -50,9 +50,9 @@ Extrait données patrimoniales (PostGreSQL)
 
 ![Logigramme projet](Projets/Logigramme_projet.png)
 
-![AirByte connexions](Projets/AirByte connexions.png)
+![AirByte connexions](Projets/AirByte connexions.PNG)
 
-![DAG1](Projets/DAG1.png)
+![DAG1](Projets/DAG1.PNG)
 
 - **Outils utilisés** : SSMS, pgAdmin4, Airbyte, DBT, PowerBI
 
@@ -62,9 +62,9 @@ Un tableau récapitulatif des consommations avec une alerte sous forme de couleu
 
 Chaque matin chaque responsable de secteur vient visualiser ces données à la recherche de potentiels fuites sur son réseau.  
 
-![Courbe_suivi](Projets/Courbe_suivi.png)
+![Courbe_suivi](Projets/Courbe_suivi.PNG)
 
-![Tableau_suivi](Projets/Tableau_suivi.png)
+![Tableau_suivi](Projets/Tableau_suivi.PNG)
 
 📄 [Voir le rapport complet Power BI](Projets/Recherche_de_fuites.pdf)
 
