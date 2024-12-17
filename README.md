@@ -111,9 +111,11 @@ Le rapport final permet aux utilisateurs d'avoir accès à l'ensemble de l'histo
 Les utilisateurs peuvent filtrer et examiner les analyses de qualité de l'eau pour chaque commune et chaque paramètre, facilitant ainsi la prise de décision et le suivi de la conformité de l'eau potable.  
 
 *Suivi des débits journaliers par réseau de distribution (comprenant plusieurs secteurs) :*  
+
 ![PowerBI1.PNG](Projets/PowerBI1.PNG)
 
 *Tableau récapitulatif des variations de consommation par secteur :*  
+
 ![PowerBI2.PNG](Projets/PowerBI2.PNG)
 
 📄 [Voir le rapport complet Power BI](Projets/Controle_Sanitaire.pdf)
