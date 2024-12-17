@@ -42,13 +42,20 @@ Nos données patrimoniales (secteur, réseau, etc.) sont issues de notre base de
   - Automatisation de l'extraction journalière (uniquement nouvelles insertions + modifications) et chargement dans une base de données PostGreSQL en local
   - Utilisation de DBT pour extraire uniquement les données utiles, les nettoyer et les transformer en modèles adaptés aux besoins métiers
   - Les modèles sont stockées sous forme de vues dans une nouvelle base de données PostGreSQL en local
-  - Connexion de PowerBI aux vues PostGreSQL pour créer des rapports dynamiques permettant aux utilisateurs de sélectionner les critères d'analyses et d'affichage
+  - Connexion de PowerBI aux vues PostGreSQL pour créer des rapports dynamiques
 
 ![Logigramme projet](Projets/Logigramme_projet.png)
 
 - **Outils utilisés** : SSMS, pgAdmin4, Airbyte, DBT, PowerBI
 
 - **Résultat** :
+Le rapport final permet aux utilisateurs d'avoir accès à l'ensemble de l'historique des débits de nuit et des débits journaliers de notre réseau.
+Un tableau récapitulatif des consommations avec une alerte sous forme de couleur (si conso journalière > 10% de la moyenne des 30 derniers jours)
+
+Chaque matin chaque responsable de secteur vient visualiser ces données à la recherche de potentiels fuites sur son réseau.
+
+📄 [Voir le rapport complet Power BI](Projets/Recherche_de_fuites.pdf)
+
 ---
 ### 2️⃣ **Suivi des indicateurs de qualité de l’eau**
 
