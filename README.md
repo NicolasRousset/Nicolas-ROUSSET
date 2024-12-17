@@ -20,12 +20,44 @@ Ce portfolio présente quelques uns de mes projets réalisés dans le domaine de
 ---
 
 ## 📊 **Projets**
-### 1️⃣ **Suivi des indicateurs de qualité de l’eau**
 
-- **Description** : Intégration et analyse des résultats mensuels des analyses de qualité de l'eau reçus d'un laboratoire d'analyse dans le cadre du contrôle sanitaire national.
+### 1️⃣ **Suivi des consommations par secteur**
+
+- **Objectifs & Description** :
+Mise au point d'un tableau de bord à destination des agents d'exploitation terrain et du Responsable d'Exploitation comprenant :
+  - Suivi des débits de nuit par secteur
+  - Suivi des débits journaliers par secteur
+  - Suivi des rendements par secteur
+  - Tableau récapitulatif des variations de consommation par secteur
+  - Suivi des débits journaliers par réseau de distribution (comprenant plusieurs secteurs)
+
+Nos données de débits sont issues de notre base de données d'exploitation.
+Nos données patrimoniales (secteur, réseau, etc.) sont issues de notre base de données SIG.
+
+- **Données brutes** :
+
+
+- **Méthodologie** :
+
+
+
+- **Outils utilisés** : SSMS, pgAdmin4, Airbyte, DBT, PowerBI
+
+- **Résultat** :
+---
+### 2️⃣ **Suivi des indicateurs de qualité de l’eau**
+
+- **Objectifs & Description** :
+Mise au point d'un tableau de bord à destination des agents d'exploitation terrain et du Directeur du Service des Eaux comprenant :
+  - Suivi de la conformité des analyses
+  - Suivi de paramètres d'exploitation (concentration en chlore, turbidité, etc.)
+  - Traçage des N° de prélèvement, d'échantillon et d'analyse pour retrouver rapidemment l'analyse recherchée
+  - Bilan par commune du nombre d'analyses réalisées et des points de prélèvement associés
+
+Intégration et analyse des résultats mensuels des analyses de qualité de l'eau reçus d'un laboratoire d'analyse dans le cadre du contrôle sanitaire national.
 Chaque mois, je reçois deux fichiers :
   - La liste des analyses : Ce fichier contient les métadonnées des analyses (dates, communes, etc.).
-  - Les résultats des analyses : Détaille les résultats pour chaque paramètre analysé, au format SISE-EAUX.
+  - Les résultats des analyses : Ce fichier détaille les résultats pour chaque paramètre analysé, au format SISE-EAUX.
 
 - **Données brutes** :
   - Liste des analyses :
@@ -36,9 +68,9 @@ Chaque mois, je reçois deux fichiers :
 - **Méthodologie** :
   - Import et transformation des données : Les fichiers sont combinés dans Power BI en utilisant la colonne "id échantillon" comme clé de jointure.
   - Décodage des codes SISE-EAUX : Des tables de correspondance sont utilisées pour transformer les codes SISE-EAUX en libellés compréhensibles.
-  - Création de rapports dynamiques : Je crée des tableaux de bord dans Power BI où l'utilisateur peut sélectionner les communes et les paramètres à afficher pour visualiser les résultats d'analyses de manière claire et dynamique.
+  - Création de rapports dynamiques : J'ai créé des tableaux de bord dans Power BI où l'utilisateur peut sélectionner les communes et les paramètres à afficher pour visualiser les résultats d'analyses de manière claire et dynamique.
 
-- **Outils utilisés** : PowerQuery + PowerBI
+- **Outils utilisés** : PowerQuery, PowerBI
 
 ![Schema_modele](Projets/Schema_modele.PNG)
 
@@ -53,10 +85,6 @@ Les utilisateurs peuvent filtrer et examiner les analyses de qualité de l'eau p
 
 📄 [Voir le rapport complet Power BI](Projets/Controle_Sanitaire.pdf)
 
-
----
-
-### 2️⃣ **Suivi des consommations par secteur** : coming soon !
 
 ---
 
