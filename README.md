@@ -71,9 +71,12 @@ Le rapport final permet aux utilisateurs d'avoir accès à :
 Chaque matin chaque responsable de secteur vient visualiser ces données à la recherche de potentiels fuites sur son réseau.  
 
 *Suivi des débits journaliers par réseau de distribution (comprenant plusieurs secteurs) :*  
+
 ![Courbe_suivi](Projets/Courbe_suivi.PNG)
 *Tableau récapitulatif des variations de consommation par secteur :* 
+
 ![Tableau_suivi](Projets/Tableau_suivi.PNG)
+
 
 📄 [Voir le rapport complet Power BI](Projets/Recherche_de_fuites.pdf)
 
