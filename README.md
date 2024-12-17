@@ -38,7 +38,7 @@ Nos données patrimoniales (secteur, réseau, etc.) sont issues de notre base de
 
 
 - **Méthodologie** :
-![Logigramme projet](Projets/Logigramme_projet.PNG)
+![Logigramme projet](Projets/Logigramme_projet.pdf)
 
 
 - **Outils utilisés** : SSMS, pgAdmin4, Airbyte, DBT, PowerBI
